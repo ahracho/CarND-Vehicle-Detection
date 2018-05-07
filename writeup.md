@@ -81,7 +81,7 @@ Following detection logic described above, boxes predicted as vehicles are marke
 
 To remove false positive, and draw a rectangular around the vehicle, I used heatmap and label method. Details are described in 2nd question in Video Implementation section.
 
-Counting how many times pixels are predicted as vehicle, and apply threshold(`add_heat()` and `apply_threshold()` in util_function.py). 
+Counting how many times pixels are predicted as vehicle, and apply threshold(`add_heat()` and `apply_threshold()` in util_function.py).   
 ![HeatMap][image5]  
 ![HeatMap with threshold][image6]  
 
